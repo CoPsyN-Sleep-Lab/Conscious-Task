@@ -270,22 +270,55 @@ instrText_4 = visual.TextStim(win=win, ori=0, name='instrText',
     color='white', colorSpace='rgb', opacity=1,
     depth=-1.0)
 
-
-ansText_1 = visual.TextStim(win=win, ori=0, name='instrText',
-    text="There were more female\n\n faces than male faces.\n\n Press the thumb button.",    font='Arial', units='deg',
-    pos=[-12, 1], height=smallText, wrapWidth=20,
-    color='white', colorSpace='rgb', opacity=1,
-    depth=-1.0)
-ansText_2 = visual.TextStim(win=win, ori=0, name='instrText',
-    text="The number of female faces was\n\nequal to the number of male faces. \n\n Press the index finger button.", font='Arial', units='deg',
-    pos=[0, 1], height=smallText, wrapWidth=20,
-    color='white', colorSpace='rgb', opacity=1,
-    depth=-1.0)
-ansText_3 = visual.TextStim(win=win, ori=0, name='instrText',
-    text=" There were more male\n\n faces than female faces.\n\n Press the middle finger button.",    font='Arial', units='deg',
-    pos=[12, 1], height=smallText, wrapWidth=20,
-    color='white', colorSpace='rgb', opacity=1,
-    depth=-1.0)
+# Set Up for Different questions for sessions
+if int(expInfo['session']) ==1:
+    ansText_1 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="There were more female\n\n faces than male faces.\n\n\n\n Press the thumb button.",    font='Arial', units='deg',
+        pos=[-12, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+    ansText_2 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="The number of female faces was\n\nequal to the number of male faces.\n\n\n\n Press the index finger button.", font='Arial', units='deg',
+        pos=[0, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+    ansText_3 = visual.TextStim(win=win, ori=0, name='instrText',
+        text=" There were more male\n\n faces than female faces.\n\n\n\n Press the middle finger button.",    font='Arial', units='deg',
+        pos=[12, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+elif int(expInfo['session']) ==2:
+    ansText_1 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="There were more angry\n\n faces than sad faces.\n\n\n\n Press the thumb button.",    font='Arial', units='deg',
+        pos=[-12, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+    ansText_2 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="The number of angry faces was\n\nequal to the number of sad faces.\n\n\n\n Press the index finger button.", font='Arial', units='deg',
+        pos=[0, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+    ansText_3 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="There were more sad\n\n faces than angry faces.\n\n\n\n Press the middle finger button.",    font='Arial', units='deg',
+        pos=[12, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+elif int(expInfo['session']) ==3:
+    ansText_1 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="There were more neutral\n\n faces than happy faces.\n\n Press the thumb button.",    font='Arial', units='deg',
+        pos=[-12, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+    ansText_2 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="The number of neutral faces was\n\nequal to the number of happy faces.\n\n\n\n Press the index finger button.", font='Arial', units='deg',
+        pos=[0, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
+    ansText_3 = visual.TextStim(win=win, ori=0, name='instrText',
+        text="There were more happy\n\n faces than neutral faces.\n\n\n\n Press the middle finger button.",    font='Arial', units='deg',
+        pos=[12, 1], height=smallText, wrapWidth=20,
+        color='white', colorSpace='rgb', opacity=1,
+        depth=-1.0)
 '''
 ### commenting this out because above has been updated with our new instructions to use the 1-5 button box###
 respText_1 = visual.TextStim(win=win, ori=0, name='instrText',
