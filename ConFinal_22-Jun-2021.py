@@ -859,56 +859,56 @@ while continueRoutine:
         ansText_3.tStart = t  # underestimates by a little under one frame
         ansText_3.frameNStart = frameN  # exact frame index
         ansText_3.setAutoDraw(True)
-'''
-    # *respText_1* updates
-    if t >= 0.0 and respText_1.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        respText_1.tStart = t  # underestimates by a little under one frame
-        respText_1.frameNStart = frameN  # exact frame index
-        respText_1.setAutoDraw(True)
 
-    # *respText_2* updates
-    if t >= 0.0 and respText_2.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        respText_2.tStart = t  # underestimates by a little under one frame
-        respText_2.frameNStart = frameN  # exact frame index
-        respText_2.setAutoDraw(True)
+#     # *respText_1* updates
+#     if t >= 0.0 and respText_1.status == NOT_STARTED:
+#         # keep track of start time/frame for later
+#         respText_1.tStart = t  # underestimates by a little under one frame
+#         respText_1.frameNStart = frameN  # exact frame index
+#         respText_1.setAutoDraw(True)
+# 
+#     # *respText_2* updates
+#     if t >= 0.0 and respText_2.status == NOT_STARTED:
+#         # keep track of start time/frame for later
+#         respText_2.tStart = t  # underestimates by a little under one frame
+#         respText_2.frameNStart = frameN  # exact frame index
+#         respText_2.setAutoDraw(True)
+# 
+#     # *respText_3* updates
+#     if t >= 0.0 and respText_3.status == NOT_STARTED:
+#         # keep track of start time/frame for later
+#         respText_3.tStart = t  # underestimates by a little under one frame
+#         respText_3.frameNStart = frameN  # exact frame index
+#         respText_3.setAutoDraw(True)
+# 
+#     # *image1* updates
+#     if t >= 0.0 and image1.status == NOT_STARTED:
+#         # keep track of start time/frame for later
+#         image1.tStart = t  # underestimates by a little under one frame
+#         image1.frameNStart = frameN  # exact frame index
+#         image1.setAutoDraw(True)
+# 
+#     # *image2* updates
+#     if t >= 0.0 and image2.status == NOT_STARTED:
+#         # keep track of start time/frame for later
+#         image2.tStart = t  # underestimates by a little under one frame
+#         image2.frameNStart = frameN  # exact frame index
+#         image2.setAutoDraw(True)
+# 
+#     # *image3* updates
+#     if t >= 0.0 and image3.status == NOT_STARTED:
+#         # keep track of start time/frame for later
+#         image3.tStart = t  # underestimates by a little under one frame
+#         image3.frameNStart = frameN  # exact frame index
+#         image3.setAutoDraw(True)
+# 
+#     # *image4* updates
+#     if t >= 0.0 and image4.status == NOT_STARTED:
+#         # keep track of start time/frame for later
+#         image4.tStart = t  # underestimates by a little under one frame
+#         image4.frameNStart = frameN  # exact frame index
+#         image4.setAutoDraw(True)
 
-    # *respText_3* updates
-    if t >= 0.0 and respText_3.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        respText_3.tStart = t  # underestimates by a little under one frame
-        respText_3.frameNStart = frameN  # exact frame index
-        respText_3.setAutoDraw(True)
-
-    # *image1* updates
-    if t >= 0.0 and image1.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        image1.tStart = t  # underestimates by a little under one frame
-        image1.frameNStart = frameN  # exact frame index
-        image1.setAutoDraw(True)
-
-    # *image2* updates
-    if t >= 0.0 and image2.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        image2.tStart = t  # underestimates by a little under one frame
-        image2.frameNStart = frameN  # exact frame index
-        image2.setAutoDraw(True)
-
-    # *image3* updates
-    if t >= 0.0 and image3.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        image3.tStart = t  # underestimates by a little under one frame
-        image3.frameNStart = frameN  # exact frame index
-        image3.setAutoDraw(True)
-
-    # *image4* updates
-    if t >= 0.0 and image4.status == NOT_STARTED:
-        # keep track of start time/frame for later
-        image4.tStart = t  # underestimates by a little under one frame
-        image4.frameNStart = frameN  # exact frame index
-        image4.setAutoDraw(True)
-'''
     # *instrKey* updates
     if t >= 0.0 and subKey.status == NOT_STARTED:
         # keep track of start time/frame for later
